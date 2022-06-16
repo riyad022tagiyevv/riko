@@ -28,7 +28,7 @@ async def ytsearch(_, message: Message):
         i = 0
         text = ""
         while i < 4:
-            text += f"Ad - {results[i]['title']}\n"
+            text += f"Mahnı Adı - {results[i]['title']}\n"
             text += f"Müddət - {results[i]['duration']}\n"
             text += f"Baxış sayı - {results[i]['views']}\n"
             text += f"Kanal - {results[i]['channel']}\n"
