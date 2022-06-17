@@ -109,7 +109,7 @@ async def play(_, message: Message):
     try:
         user = await USER.get_me()
     except:
-        user.first_name = "RichMusicAsistant"
+        user.first_name = "kafkazMusicAsistant"
     usar = user
     wew = usar.id
     try:
@@ -152,7 +152,7 @@ async def play(_, message: Message):
 
         file_name = get_file_name(audio)
         title = file_name
-        thumb_name = "https://i.ibb.co/Qkz78hx/images-1.jpg"
+        thumb_name = "https://images.app.goo.gl/AfKwzmxyAHedpQSA8"
         thumbnail = thumb_name
         duration = round(audio.duration / 60)
         views = "Yerli olaraq əlavə edildi"
